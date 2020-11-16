@@ -120,7 +120,7 @@ html {
     background-position: fixed;
     background-width: 100%;
     background-height: 100%;
-    cursor: url('https://i.postimg.cc/rFgVvf90/cursor.png'), auto;
+    cursor: url(../pages/cursor.png) 25 25, auto
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -243,7 +243,7 @@ a {
 a:hover {
     color: #333333;
     text-decoration: none;
-    cursor: url('https://i.postimg.cc/rFgVvf90/cursor.png'), auto;
+    cursor: url(../pages/cursor.png), auto !important;
 }
 
 a:not([href]):not([tabindex]) {
@@ -354,7 +354,7 @@ button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
-    cursor: pointer;
+    cursor: url(../pages/cursor.png), auto;
 }
 
 button::-moz-focus-inner,
@@ -437,7 +437,7 @@ output {
 
 summary {
     display: list-item;
-    cursor: pointer;
+    cursor: url(../pages/cursor.png), auto;
 }
 
 template {
@@ -3477,7 +3477,7 @@ fieldset:disabled a.btn {
     color: #ADFF00;
     background-color: #000000;
     border-color: none;     border-radius: 13px;
-    cursor: url("https://i.postimg.cc/rFgVvf90/cursor.png"), auto;
+    cursor: url(../pages/cursor.png), auto;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -6404,7 +6404,7 @@ input[type="button"].btn-block {
     width: 100%;
     height: 0.5rem;
     color: transparent;
-    cursor: pointer;
+    cursor: url(../pages/cursor.png), auto;
     background-color: #F0F3F6;
     border-color: transparent;
     border-radius: 1rem;
@@ -6439,7 +6439,7 @@ input[type="button"].btn-block {
     width: 100%;
     height: 0.5rem;
     color: transparent;
-    cursor: pointer;
+cursor: url(../pages/cursor.png), auto;
     background-color: #F0F3F6;
     border-color: transparent;
     border-radius: 1rem;
