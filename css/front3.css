@@ -84,6 +84,7 @@ chatroom .receiver.receiver, [data-is="chatroom"] .receiver.receiver {
 #options > textarea {
   width: 100%;
 }
+
 /*
 Removes white gap between slides - chagnge to base color of slide images
 */
