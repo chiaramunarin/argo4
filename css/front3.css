@@ -52,12 +52,14 @@ body > main > section:nth-child(8) > div > div {
 
 chatroom .sender.sender, [data-is="chatroom"] .sender.sender {
       background-color: #ADFF00 !important;
-          border: 1px solid !important;
-          border-color: #000000 !important;
+      border: 1px solid !important;
+      border-color: #000000 !important;
+      color: black !important;
 }
 
 chatroom .receiver.receiver, [data-is="chatroom"] .receiver.receiver {
-  
+  background-color: white !important;
+  border-color: #000000 !important;
 }
 /*
 Removes white gap between slides - chagnge to base color of slide images
