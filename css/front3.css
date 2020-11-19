@@ -692,6 +692,10 @@ body {
     outline: 0 !important;
 }
 
+#sil-widget-5fad206220100b001d7264e7 > chatroom {
+    width: 100%;
+}
+
 hr {
     box-sizing: content-box;
     height: 0;
