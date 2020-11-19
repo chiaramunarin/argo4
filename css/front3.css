@@ -675,7 +675,7 @@ body {
     color: #000000;
     text-align: left;
     background-color: transparent;
-    cursor: url("https://i.postimg.cc/Fz5gxmK2/cursor-dark.png"), auto;
+    cursor: url(../pages/cursor-black.png), auto;
 }
 
 [tabindex="-1"]:focus {
