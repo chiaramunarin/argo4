@@ -55,6 +55,10 @@ chatroom .sender.sender, [data-is="chatroom"] .sender.sender {
           border: 1px solid !important;
           border-color: #000000 !important;
 }
+
+chatroom .receiver.receiver, [data-is="chatroom"] .receiver.receiver {
+  
+}
 /*
 Removes white gap between slides - chagnge to base color of slide images
 */
