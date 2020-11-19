@@ -61,6 +61,16 @@ chatroom .receiver.receiver, [data-is="chatroom"] .receiver.receiver {
   background-color: white !important;
   border-color: #000000 !important;
 }
+
+#create > input {
+  width: 100% !important;
+  margin-bottom: 1rem;
+}
+
+#create > div.create-user-actions > button {
+  background-color: black !important;
+  color: #ADFF00 !important;
+}
 /*
 Removes white gap between slides - chagnge to base color of slide images
 */
