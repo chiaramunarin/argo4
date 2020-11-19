@@ -58,18 +58,27 @@ chatroom .sender.sender, [data-is="chatroom"] .sender.sender {
 }
 
 chatroom .receiver.receiver, [data-is="chatroom"] .receiver.receiver {
-  background-color: white !important;
-  border-color: #000000 !important;
+      background-color: white !important;
+      border-color: #000000 !important;
+      border: 1px solid !important;
 }
 
 #create > input {
-  width: 100% !important;
-  margin-bottom: 1rem;
+      width: 100% !important;
+      margin-bottom: 1rem;
 }
 
 #create > div.create-user-actions > button {
-  background-color: black !important;
-  color: #ADFF00 !important;
+      background-color: black !important;
+      color: #ADFF00 !important;
+}
+
+#options > div > a > span {
+      display: none;
+}
+
+#options > div > a > img {
+      display: none;
 }
 /*
 Removes white gap between slides - chagnge to base color of slide images
