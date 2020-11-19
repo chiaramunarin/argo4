@@ -49,6 +49,12 @@ chatroom .create-user-actions, [data-is="chatroom"] .create-user-actions {
 body > main > section:nth-child(8) > div > div {
   margin-top: -35rem !important;
 }
+
+chatroom .sender.sender, [data-is="chatroom"] .sender.sender {
+      background-color: #ADFF00;
+          border: 1px solid ;
+          border-color: #000000;
+}
 /*
 Removes white gap between slides - chagnge to base color of slide images
 */
