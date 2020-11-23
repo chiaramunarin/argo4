@@ -1,3 +1,4 @@
+
 /*
 
 =========================================================
@@ -31,20 +32,6 @@
   font-family: 'Termina-Regular';
   src: url(termina-regular-webfont.woff);
 }
-
-/* mobile menu */
-@media (max-width: 991.98px) {
-  .navbar-collapse.collapsing, .navbar-collapse.show {
-    background-color: black !important;
-   }
-   .navbar-theme-primary .navbar-nav .nav-link {
-     color: #adff00 !important;
-   }
-  #navbar_global > div > div > div.col-6.collapse-close > a{
-    color: #adff00 !important;
-   }
-}
-
 .split2 {
     float: left;
     width: 45%;
@@ -6685,6 +6672,42 @@ cursor: url(../pages/cursor.png), auto;
     display: inline-block;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+}
+
+
+
+@media (max-width: 991.98px) {
+  .navbar-collapse.collapsing, .navbar-collapse.show {
+    background-color: black !important;
+   }
+   .navbar-theme-primary .navbar-nav .nav-link {
+     color: #adff00 !important;
+   }
+  #navbar_global > div > div > div.col-6.collapse-close > a{
+      color: #adff00 !important;
+   }
+    h1 {
+      text-align: left !important;
+    }
+    
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(1) {
+      margin: auto !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(2) {
+      margin: 1rem auto  !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(3) {
+      margin: auto  !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(4) {
+      margin: 1rem auto  !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(5) {
+      margin: auto  !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(6) {
+      margin: 1rem auto  !important;
+    }
 }
 
 .navbar-collapse {
@@ -25272,7 +25295,7 @@ button.section-gray-800:focus {
   .navbar-theme-primary .navbar-nav .list-group-item:focus,
   .navbar-theme-primary .navbar-nav .list-group-item.active,
   .navbar-theme-primary .navbar-nav .list-group-item:hover {
-        color: #0648B3;
+        color: #adff00;
         background: transparent;
     }
 
@@ -35222,8 +35245,8 @@ p, ol li, ul li, .p {
     line-height: 1.6;
 }
 
-a, .text-action {
-    color: #000000;
+.fas .fa-times {
+    color: #adff00 !important;
     transition: all 0.2s ease;
 }
 /
