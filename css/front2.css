@@ -6643,6 +6643,12 @@ input[type="button"].btn-block {
     float: none;
 }
 
+@media (max-width: 991.98px) {
+.navbar-collapse.collapsing, .navbar-collapse.show {
+  background-color: black !important; 
+}
+}
+
 .navbar-text {
     display: inline-block;
     padding-top: 0.25rem;
@@ -25234,7 +25240,7 @@ button.section-gray-800:focus {
   .navbar-theme-primary .navbar-nav .list-group-item:focus,
   .navbar-theme-primary .navbar-nav .list-group-item.active,
   .navbar-theme-primary .navbar-nav .list-group-item:hover {
-        color: #0648B3;
+        color: #adff00;
         background: transparent;
     }
 
