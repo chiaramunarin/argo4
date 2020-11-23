@@ -31,6 +31,20 @@
   font-family: 'Termina-Regular';
   src: url(termina-regular-webfont.woff);
 }
+
+/* mobile menu */
+@media (max-width: 991.98px) {
+  .navbar-collapse.collapsing, .navbar-collapse.show {
+    background-color: black !important;
+   }
+   .navbar-theme-primary .navbar-nav .nav-link {
+     color: #adff00 !important;
+   }
+  #navbar_global > div > div > div.col-6.collapse-close > a{
+    color: #adff00 !important;
+   }
+}
+
 .split2 {
     float: left;
     width: 45%;
