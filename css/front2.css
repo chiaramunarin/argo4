@@ -21,6 +21,48 @@
   font-family: 'Termina-Regular';
   src: url(termina-regular-webfont.woff);
 }
+
+
+@media (max-width: 991.98px) {
+  .navbar-collapse.collapsing, .navbar-collapse.show {
+    background-color: black !important;
+   }
+   .navbar-theme-primary .navbar-nav .nav-link {
+     color: #adff00 !important;
+   }
+  #navbar_global > div > div > div.col-6.collapse-close > a{
+      color: #adff00 !important;
+   }
+    h1 {
+      text-align: left !important;
+    }
+    body > main > section:nth-child(4) > section.section.pb-2 > div > div {
+      margin-left: 1.5rem; 
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(1) {
+      margin: auto !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(2) {
+      margin: 1rem auto  !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(3) {
+      margin: auto  !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(4) {
+      margin: 1rem auto  !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(5) {
+      margin: auto  !important;
+    }
+    body > main > section:nth-child(4) > section:nth-child(6) > div > div > div > div:nth-child(6) {
+      margin: 1rem auto  !important;
+    }
+    .carousel-item {
+      transition: opacity 0.6s ease-in-out;
+    }
+}
+
+
 /*
  * 	Default theme - Owl Carousel CSS File
  */
@@ -3461,16 +3503,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-    color: #ffffff;
+    color: #000;
     background-color: #0648B3;
     border-color: #0648B3;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
-    color: #ffffff;
-    background-color: #043482;
-    border-color: #042f75;
+    color: #000;
+    background-color: transparent;
+    border-color: #000;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
