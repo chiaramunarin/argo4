@@ -36,12 +36,6 @@ display: none !important;
     body > main > footer > div > div:nth-child(3) > div > div > p{
       font-size: 12px !important;
     }
-    likebtn-button lb-dislike {
-      display: none !important;
-    }
-    lb-tt lb-share-tt {
-      display: none;
-    }
 }
 
 /*

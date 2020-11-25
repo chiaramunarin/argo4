@@ -33,6 +33,13 @@
   src: url(termina-regular-webfont.woff);
 }
 
+#navbar_global > ul > li:nth-child(4) > a:hover {
+color: #000 !important;
+}
+
+.data {
+  text-align: right;
+}
 
 @media (max-width: 991.98px) {
   .navbar-collapse.collapsing, .navbar-collapse.show {
@@ -71,6 +78,33 @@
     .carousel-item {
       transition: opacity 0.6s ease-in-out;
     }
+    body > main > footer > div > div:nth-child(1) > div:nth-child(2) > ul > li {
+      font-size: 12px !important;
+    }
+    body > main > footer > div > div:nth-child(1) > div:nth-child(3) > ul > li {
+      font-size: 12px !important;
+    }
+    body > main > footer > div > div:nth-child(3) > div > div > p{
+      font-size: 12px !important;
+    }
+    #navbar_global > ul > li:nth-child(4) > a:hover {
+      color: #adff00 !important;
+    }
+    .data {
+    color: #adff00 !important; 
+    text-align: left;
+    padding-left: 0 !important;
+    }
+    .gino{
+      padding-left: 0 !important;
+      top: 85vh !important;
+      position:absolute;
+    
+    }
+    .navbar-light .navbar-toggler-icon{
+    color: #000000 !important;
+    border-color: transparent;
+}
 }
 
 
@@ -6955,11 +6989,11 @@ cursor: url(../pages/cursor.png), auto;
 }
 
 .navbar-light .navbar-brand {
-    color: rgba(80, 102, 144, 0.8);
+    color: black;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: rgba(80, 102, 144, 0.8);
+    color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -6967,7 +7001,7 @@ cursor: url(../pages/cursor.png), auto;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #506690;
+    color: black;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -6982,16 +7016,13 @@ cursor: url(../pages/cursor.png), auto;
 }
 
 .navbar-light .navbar-toggler {
-    color: #66799e;
+    color: #000000;
     border-color: transparent;
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2366799e' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
 
 .navbar-light .navbar-text {
-    color: #66799e;
+    color: #000000;
 }
 
 .navbar-light .navbar-text a {
@@ -7026,7 +7057,7 @@ cursor: url(../pages/cursor.png), auto;
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: white;
+    color: black;
 }
 
 .navbar-dark .navbar-toggler {
@@ -7034,20 +7065,17 @@ cursor: url(../pages/cursor.png), auto;
     border-color: transparent;
 }
 
-.navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
 
 .navbar-dark .navbar-text {
     color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-dark .navbar-text a {
-    color: white;
+    color: black;
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-    color: white;
+    color: black;
 }
 
 .card {
@@ -25126,6 +25154,7 @@ button.section-gray-800:focus {
 
 .navbar-main .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    color:black;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -25242,20 +25271,17 @@ button.section-gray-800:focus {
     background: transparent;
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2366799e' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
 
 .navbar-light .navbar-brand-dark {
     display: none;
 }
 
 .navbar-light .navbar-brand {
-    color: #506690;
+    color: black;
 }
 
 .navbar-theme-primary:not(.headroom) {
-    background-color: #0648B3;
+    background-color: black;
 }
 
 .navbar-theme-primary.navbar-light:not(.headroom) .navbar-nav .dropdown-item.active, .navbar-theme-primary.navbar-light:not(.headroom) .navbar-nav .dropdown-item:hover,

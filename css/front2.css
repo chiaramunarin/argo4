@@ -60,6 +60,38 @@
     .carousel-item {
       transition: opacity 0.6s ease-in-out;
     }
+    body > main > footer > div > div:nth-child(1) > div:nth-child(2) > ul > li {
+      font-size: 12px !important;
+    }
+    body > main > footer > div > div:nth-child(1) > div:nth-child(3) > ul > li {
+      font-size: 12px !important;
+    }
+    body > main > footer > div > div:nth-child(3) > div > div > p{
+      font-size: 12px !important;
+    }
+    body > main > section.section.section-lg > div > div.row.justify-content-center.mb-2.mb-lg-6 > div:nth-child(1) > h1{
+      text-align: center !important;
+    }
+    body > main > section.section.section-lg > div > div.row.justify-content-center.mb-2.mb-lg-6 > div:nth-child(2) > h1{
+      text-align: center !important;
+    }
+    body > main > section.section.section-lg > div > div.row.justify-content-center.mb-2.mb-lg-6 > div:nth-child(3) > h1{
+      text-align: center !important;
+    }
+    #navbar_global > ul > li:nth-child(4) > a:hover {
+      color: #adff00 !important;
+    }
+    .data {
+    color: #adff00 !important; 
+    text-align: left;
+    padding-left: 0 !important;
+    }
+    .gino{
+      padding-left: 0 !important;
+      top: 85vh !important;
+      position:absolute;
+    
+    }
 }
 
 
