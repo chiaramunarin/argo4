@@ -3514,7 +3514,8 @@ fieldset:disabled a.btn {
 .btn-primary {
     color: #000000;
     background-color: #ADFF00;
-    border-color: none;    border-radius: 13px;
+    border-color: black;    
+    border-radius: 13px;
 
 }
 
