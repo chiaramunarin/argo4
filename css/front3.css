@@ -36,7 +36,17 @@ display: none !important;
     body > main > footer > div > div:nth-child(3) > div > div > p{
       font-size: 12px !important;
     }
+    .mario{
+      font-size: 12px !important;
+    }
+    a.like-dislike-powered-by {
+      display: none !important;
+    }
 }
+
+    a.like-dislike-powered-by {
+      display: none !important;
+    }
 
 .values {
   line-height: 100px;
@@ -175,14 +185,14 @@ anchors are inline so you need ot make them block to go full width
 }
 .content_c>.section_c>.inputheadline {
   border: 1px solid #ADADAD;
-  font-family: Verdana;
+  font-family: 'Termina-Regular';
   font-size: 0.9em;
   margin: 0 0 5px;
   width: calc(100% - 4px);
 }
 .content_c>.section_c>.inputcontent {
   border: 1px solid #ADADAD;
-  font-family: Verdana;
+  font-family: 'Termina-Regular';
   font-size: 0.9em;
   max-height: 350px;
   min-height: 100px;
@@ -199,11 +209,11 @@ anchors are inline so you need ot make them block to go full width
   padding: 5px 25px;
 }
 .content_c>.section_c>.commentrow>h1 {
-  font-family: Verdana;
+  font-family: 'Termina-Regular';
   font-size: 1.15em;
 }
 .content_c>.section_c>.commentrow>p {
-  font-family: Verdana;
+  font-family: 'Termina-Regular';
   font-size: 0.75em;
 }
 .content_c>.section_c>.commentrow>p .timestamp {

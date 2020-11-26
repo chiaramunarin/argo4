@@ -86,11 +86,18 @@
     text-align: left;
     padding-left: 0 !important;
     }
+    .navbar-light .navbar-toggler-icon{
+    color: #000000 !important;
+    border-color: transparent;
+    background-image: url("../assets/arrow-grey.png") !important;
+    }
     .gino{
       padding-left: 0 !important;
       top: 85vh !important;
       position:absolute;
-    
+    }
+        .titolo{
+      font-size: 24px !important;
     }
 }
 

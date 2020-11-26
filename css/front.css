@@ -1,30 +1,4 @@
 
-/*
-
-=========================================================
-* Impact Design System - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/impact-design-system
-* Copyright 2010 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/impact-design-system/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-
-
- * 	Default theme - Owl Carousel CSS File
- */
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
@@ -107,7 +81,12 @@ color: #000 !important;
     .navbar-light .navbar-toggler-icon{
     color: #000000 !important;
     border-color: transparent;
-}
+    background-image: url("../assets/arrow-grey.png") !important;
+    }
+
+    .titolo{
+      font-size: 24px !important;
+    }
 }
 
 
@@ -18966,8 +18945,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-primary .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
+    background-image: url("../assets/arrow.png");}
 
 .headroom--not-top.navbar-theme-primary .nav-link {
     color: #ADFF00;
@@ -18990,7 +18968,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-secondary .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-secondary .nav-link {
@@ -19014,7 +18992,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-success .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-success .nav-link {
@@ -19038,7 +19016,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-info .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-info .nav-link {
@@ -19062,7 +19040,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-warning .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-warning .nav-link {
@@ -19086,7 +19064,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-danger .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-danger .nav-link {
@@ -19110,7 +19088,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-light .nav-link {
@@ -19134,7 +19112,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-dark .nav-link {
@@ -19158,7 +19136,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-default .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-default .nav-link {
@@ -19182,7 +19160,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-tertiary .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-tertiary .nav-link {
@@ -19206,7 +19184,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-quaternary .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-quaternary .nav-link {
@@ -19230,7 +19208,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-white .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-white .nav-link {
@@ -19254,7 +19232,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-gray .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-gray .nav-link {
@@ -19278,7 +19256,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-neutral .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-neutral .nav-link {
@@ -19302,7 +19280,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-soft .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-soft .nav-link {
@@ -19326,7 +19304,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-black .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-black .nav-link {
@@ -19350,7 +19328,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 .headroom--not-top.navbar-theme-purple .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("../assets/arrow-green.png");
 }
 
 .headroom--not-top.navbar-theme-purple .nav-link {
@@ -35274,6 +35252,9 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Termina-Regular', sans-serif;
     font-weight: 600;
+}
+.titolo{
+  text-align: left !important;
 }
 
 p, ol li, ul li, .p {
