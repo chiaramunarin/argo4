@@ -52,6 +52,10 @@ display: none !important;
       text-align:center !important;
     }
 
+    .tino{
+      margin:auto !important;
+    }
+
 
 .values {
   line-height: 100px;
