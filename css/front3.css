@@ -16771,7 +16771,8 @@ button.bg-gray-800:focus {
 
     .mt-lg-n13,
   .my-lg-n13 {
-
+        margin-top: 4rem !important;
+        margin-bottom: 4rem !important;
     }
 
     .mr-lg-n13,
