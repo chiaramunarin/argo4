@@ -12339,7 +12339,7 @@ button.bg-gray-800:focus {
 
 .pt-7,
 .py-7 {
-    padding-top: 8rem !important;
+    padding-top: 4rem !important;
 }
 
 .pr-7,
@@ -12349,7 +12349,7 @@ button.bg-gray-800:focus {
 
 .pb-7,
 .py-7 {
-    padding-bottom: 8rem !important;
+    padding-bottom: 4rem !important;
 }
 
 .pl-7,
