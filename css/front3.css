@@ -48,9 +48,10 @@ display: none !important;
       display: none !important;
     }
 
-    .row .justify-content-center {
+    .gigi {
       text-align:center !important;
     }
+
 
 .values {
   line-height: 100px;
