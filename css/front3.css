@@ -48,6 +48,10 @@ display: none !important;
       display: none !important;
     }
 
+    .row .justify-content-center {
+      text-align:center !important;
+    }
+
 .values {
   line-height: 100px;
   font-size:30px;
